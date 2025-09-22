@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15pt;
+    color: #add8e6; /* Light Blue */
+    text-align: left; /* Changed from center to left */
+}
+
+h1 {
+    display: inline-block;
+    font-size: 35pt;
+    color: red; /* Added missing semicolon */
+    padding: 5px 10px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h2 {
+    text-align: left; /* Fixed: was text-align; */
+    color: red;
+}
+
+img {
+    display: block;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+p {
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+}
+
+p.shrt {
+    display: inline-block;
+    background-color: lightyellow; /* Fixed colon */
+    width: 600px;
+    padding: 5px 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    text-align: left;
+}
